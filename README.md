@@ -42,3 +42,21 @@ CREATE TABLE order_items (
 CREATE INDEX              -- Índice para búsquedas por orden
 CREATE INDEX              -- Índice para búsquedas por producto
 ```
+
+## 2. Insertar la siguiente cantidad de registros por tabla
+
+- 4 registros en `customers`
+- 4 registros en `products`
+- 4 registros en `orders`
+- 6 registros en `order_items`
+
+## 3. Realizar las siguientes consultas
+
+```sql
+-- Clientes y sus órdenes
+
+-- Órdenes y sus productos
+
+-- Total gastado por cliente
+
+```
