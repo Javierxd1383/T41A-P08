@@ -4,15 +4,12 @@ import psycopg2
 class TestDatabase(unittest.TestCase):
     def setUp(self):
         self.conn = psycopg2.connect(
-            dbname="postgres",
+            dbname="test_db",
             user="postgres",
             password="postgres",
             host="localhost"
         )
         self.cur = self.conn.cursor()
-        with open("pg_index_demo/setup.sql", "r") as f:
-            self.cur.execute(f.read())
-        self.conn.commit()
 
     # 🔍 JOIN queries
     def test_customer_orders_join(self):
