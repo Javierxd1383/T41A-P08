@@ -61,7 +61,7 @@ CREATE INDEX              -- Índice para búsquedas por producto
 
 ```
 
-# Tablas e Índices en Bases de Datos Relacionales (Nivel Universitario)
+# Tablas e Índices en Bases de Datos Relacionales
 
 Las **tablas** y los **índices** son los pilares de la gestión y la optimización del rendimiento en las **bases de datos relacionales**. Comprender su funcionamiento es esencial para el diseño de sistemas eficientes.
 
