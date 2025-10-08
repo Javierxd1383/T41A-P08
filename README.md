@@ -13,7 +13,7 @@ CREATE TABLE customers (
 );
 -- Índices para optimizar búsquedas
 CREATE INDEX              -- Índice para búsquedas por ciudad
-CREATE                    -- Índice para rangos de fechas
+CREATE INDEX              -- Índice para rangos de fechas
 
 -- Tabla: products
 CREATE TABLE products (
