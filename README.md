@@ -1,6 +1,6 @@
 # T41A-P08
 
-## 1. Crea las siguientes tablas con los siguientes índices
+## 1. Crea las siguientes tablas e índices
 
 ```sql
 -- Tabla: customers
