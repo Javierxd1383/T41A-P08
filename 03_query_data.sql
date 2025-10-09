@@ -1,3 +1,4 @@
+-- Desactivar hashjoin y mergejoin para forzar nested loops
 SET enable_hashjoin = OFF;
 SET enable_mergejoin = OFF;
  
